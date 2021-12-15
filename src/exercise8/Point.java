@@ -38,7 +38,6 @@ public class Point {
 
     public Point createNewTranslatedPoint(double xDelta, double yDelta) {
         // Create new point which is translated relative to this point
-        return null;
         double newX = x + xDelta;
         double newY = y + yDelta;
         return new Point (newX, newY);
@@ -46,7 +45,7 @@ public class Point {
 
     public boolean equals(Point otherPoint) {
         // Compare attributes of this point to attributes of otherPoint for equality
-        return false;
+        
         // Compare attributes of this point to attributes of otherPoint for equality 
         boolean xEqual = Utils.equals(x, otherPoint.x);
         boolean yEqual = Utils.equals(y, otherPoint.y);
@@ -55,7 +54,7 @@ public class Point {
 
     public String toString() {
         // Represent attributes as string
-        return null;
+        
         return "(" + x + ", " + y + ")";
     }
 }
